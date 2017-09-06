@@ -2,11 +2,12 @@
 
 .select-wrap
     width: 100%
-    height: 75px
+    height: 92px
     box-sizing()
-    padding: 0 16px
+    /* padding: 0 16px */
     flexbox()
     align-items: flex-end
+    position: relative
 
     .select
         flexbox()
@@ -18,12 +19,13 @@
         margin-bottom: 10px
         font-size: 14px
         font-weight: 400
-        border-bottom: 1px solid inputBorderColor
+        border-bottom: 1px solid color13
 
     .select-list
         position: absolute
         background: #000
-        width: calc(100% - 32px)
+        /* width: calc(100% - 32px) */
+        width: 100%
         flexbox()
         flex-flow: column nowrap
         border-radius(3px)
